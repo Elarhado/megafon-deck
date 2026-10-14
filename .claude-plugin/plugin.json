@@ -1,0 +1,17 @@
+{
+  "name": "megafon-deck",
+  "displayName": "MegaFon Deck",
+  "version": "1.0.0",
+  "description": "Private: MegaFon presentations in the corporate style with one command — template layouts, brandbook palette, icons, lint and visual check; .pptx + PDF.",
+  "author": {
+    "name": "Vladislav Alekseev",
+    "url": "https://github.com/Elarhado"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "presentation",
+    "pptx",
+    "brand",
+    "megafon"
+  ]
+}

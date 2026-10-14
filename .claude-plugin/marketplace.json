@@ -1,0 +1,16 @@
+{
+  "name": "megafon-deck",
+  "owner": {
+    "name": "Vladislav Alekseev",
+    "url": "https://github.com/Elarhado"
+  },
+  "description": "Private marketplace: MegaFon presentation plugin.",
+  "plugins": [
+    {
+      "name": "megafon-deck",
+      "source": "./",
+      "description": "MegaFon presentations in the corporate style with one command.",
+      "category": "productivity"
+    }
+  ]
+}

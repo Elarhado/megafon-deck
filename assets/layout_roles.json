@@ -1,0 +1,427 @@
+{
+ "_doc": "Semantic roles -> placeholder idx. Same idx in all three styles (dark/green/light). Lists are ordered top-to-bottom / left-to-right. 'auto' slots (header label, slide number) are filled by the builder.",
+ "common": {
+  "title": 0,
+  "auto": {
+   "header_label": "date placeholder (deck name + date)",
+   "slide_number": "slide_number placeholder"
+  }
+ },
+ "layouts": {
+  "cover": {
+   "use": "Title slide. Logo is part of the layout. Green style is the brand default for covers.",
+   "roles": {
+    "title": 10,
+    "label": 11
+   },
+   "no_common_title": true
+  },
+  "section": {
+   "use": "Section divider ('шмутц'): one short phrase.",
+   "roles": {
+    "title": 0
+   }
+  },
+  "blank": {
+   "use": "Free canvas under a title: native chart, table, image, icons or free text via 'elements'.",
+   "roles": {
+    "title": 0
+   }
+  },
+  "rows_arrows": {
+   "use": "3 rows: item -> consequence (problem->solution, from->to, action->effect).",
+   "roles": {
+    "title": 0,
+    "head_left": 10,
+    "head_right": 11,
+    "left": [
+     35,
+     36,
+     37
+    ],
+    "right": [
+     24,
+     25,
+     26
+    ]
+   }
+  },
+  "rows_bars": {
+   "use": "3 rows, two parallel columns (A vs B, before | after).",
+   "roles": {
+    "title": 0,
+    "head_left": 10,
+    "head_right": 11,
+    "left": [
+     35,
+     36,
+     37
+    ],
+    "right": [
+     45,
+     46,
+     47
+    ]
+   }
+  },
+  "icon_bg_list": {
+   "use": "3 headed points on the left, big icon/picture on the right.",
+   "roles": {
+    "title": 0,
+    "heads": [
+     10,
+     48,
+     50
+    ],
+    "texts": [
+     25,
+     49,
+     51
+    ],
+    "picture": 45
+   }
+  },
+  "icon_bg_two_columns": {
+   "use": "3 rows in two columns plus a big icon/picture.",
+   "roles": {
+    "title": 0,
+    "head_left": 10,
+    "head_right": 11,
+    "left": [
+     35,
+     36,
+     37
+    ],
+    "right": [
+     24,
+     25,
+     26
+    ],
+    "picture": 45
+   }
+  },
+  "timeline": {
+   "use": "5 steps on a time axis: short labels (dates, phases) on top, details in boxes below.",
+   "roles": {
+    "title": 0,
+    "steps": [
+     10,
+     46,
+     47,
+     48,
+     49
+    ],
+    "details": [
+     57,
+     56,
+     55,
+     54,
+     53
+    ]
+   }
+  },
+  "table_3col": {
+   "use": "3x3 grid: column heads + 3 rows of short cells (8 pt, keep cells to 1-3 short lines).",
+   "roles": {
+    "title": 0,
+    "heads": [
+     10,
+     48,
+     11
+    ],
+    "rows": [
+     [
+      45,
+      49,
+      24
+     ],
+     [
+      46,
+      50,
+      25
+     ],
+     [
+      47,
+      51,
+      26
+     ]
+    ]
+   }
+  },
+  "plate_list": {
+   "use": "Up to 5 rows: label -> description on one plate.",
+   "roles": {
+    "title": 0,
+    "labels": [
+     10,
+     45,
+     47,
+     49,
+     51
+    ],
+    "texts": [
+     24,
+     46,
+     48,
+     50,
+     52
+    ]
+   }
+  },
+  "two_plates_conclusion": {
+   "use": "Two options/blocks with tab labels, plus a conclusion line at the bottom.",
+   "roles": {
+    "title": 0,
+    "tabs": [
+     29,
+     30
+    ],
+    "bodies": [
+     24,
+     26
+    ],
+    "conclusion_head": 13,
+    "conclusion": 28
+   }
+  },
+  "quote": {
+   "use": "Big quote with author, two supporting text blocks, small footnote.",
+   "no_common_title": true,
+   "roles": {
+    "quote": 30,
+    "author": 34,
+    "left": 24,
+    "right": 33,
+    "footnote": 35
+   }
+  },
+  "three_frames": {
+   "use": "3 parallel blocks: head + text (pillars, options, segments).",
+   "roles": {
+    "title": 0,
+    "heads": [
+     13,
+     14,
+     15
+    ],
+    "bodies": [
+     24,
+     26,
+     28
+    ]
+   }
+  },
+  "three_steps_conclusion": {
+   "use": "3 numbered steps feeding one conclusion, with notes under it.",
+   "roles": {
+    "title": 0,
+    "steps": [
+     13,
+     14,
+     15
+    ],
+    "conclusion": 32,
+    "details": [
+     24,
+     26,
+     28
+    ]
+   }
+  },
+  "three_pills": {
+   "use": "3 rows: name+description | big value + caption | comment. Good for metrics per item.",
+   "roles": {
+    "title": 0,
+    "heads": [
+     10,
+     48,
+     11
+    ],
+    "names": [
+     49,
+     51,
+     53
+    ],
+    "descriptions": [
+     35,
+     50,
+     52
+    ],
+    "values": [
+     54,
+     56,
+     58
+    ],
+    "value_captions": [
+     55,
+     57,
+     59
+    ],
+    "comments": [
+     24,
+     25,
+     26
+    ]
+   }
+  },
+  "four_arrows_conclusion": {
+   "use": "4 items with details, converging into 2 outcomes on the right.",
+   "roles": {
+    "title": 0,
+    "items": [
+     49,
+     51,
+     55,
+     56
+    ],
+    "details": [
+     24,
+     52,
+     53,
+     54
+    ],
+    "outcomes": [
+     57,
+     58
+    ]
+   }
+  },
+  "two_pills": {
+   "use": "2 big statements with details.",
+   "roles": {
+    "title": 0,
+    "items": [
+     49,
+     51
+    ],
+    "details": [
+     24,
+     50
+    ]
+   }
+  },
+  "three_pills_image": {
+   "use": "3 headed points left, large picture right (no title).",
+   "no_common_title": true,
+   "roles": {
+    "heads": [
+     49,
+     51,
+     53
+    ],
+    "texts": [
+     24,
+     50,
+     52
+    ],
+    "picture": 54
+   }
+  },
+  "frame_image": {
+   "use": "2 headed text blocks in a frame + picture.",
+   "roles": {
+    "title": 0,
+    "heads": [
+     13,
+     32
+    ],
+    "texts": [
+     24,
+     33
+    ],
+    "picture": 34
+   }
+  },
+  "kpi_2x2": {
+   "use": "4 KPIs: big value, label, note (order: top-left, top-right, bottom-left, bottom-right).",
+   "roles": {
+    "title": 0,
+    "values": [
+     13,
+     33,
+     37,
+     39
+    ],
+    "labels": [
+     32,
+     35,
+     38,
+     40
+    ],
+    "details": [
+     24,
+     36,
+     41,
+     42
+    ]
+   }
+  },
+  "chart_two_items": {
+   "use": "Chart left; 2 legend items with coloured dots; summary block.",
+   "roles": {
+    "title": 0,
+    "chart": 10,
+    "heads": [
+     13,
+     27
+    ],
+    "texts": [
+     26,
+     28
+    ],
+    "summary_head": 31,
+    "summary": 25
+   }
+  },
+  "chart_five_items": {
+   "use": "Chart left; up to 5 legend items with coloured dots, each with two short values/notes.",
+   "roles": {
+    "title": 0,
+    "chart": 10,
+    "heads": [
+     13,
+     35,
+     38,
+     41,
+     44
+    ],
+    "col1": [
+     26,
+     36,
+     39,
+     42,
+     45
+    ],
+    "col2": [
+     34,
+     37,
+     40,
+     43,
+     46
+    ]
+   }
+  },
+  "chart_wide": {
+   "use": "Chart left; 3 items with two short values/notes each (no dots).",
+   "roles": {
+    "title": 0,
+    "chart": 10,
+    "heads": [
+     13,
+     35,
+     38
+    ],
+    "col1": [
+     26,
+     36,
+     39
+    ],
+    "col2": [
+     34,
+     37,
+     40
+    ]
+   }
+  }
+ }
+}

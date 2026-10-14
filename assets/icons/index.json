@@ -1,0 +1,1480 @@
+{
+ "source": "lucide-static 1.57.0",
+ "licence": "ISC",
+ "colours": {
+  "green": "#00B956",
+  "purple": "#731982",
+  "white": "#FFFFFF",
+  "black": "#000000",
+  "berry": "#AA5AFF"
+ },
+ "icons": [
+  {
+   "name": "antenna",
+   "tags": [
+    "antenna",
+    "mast",
+    "антенна",
+    "мачта",
+    "сигнал"
+   ]
+  },
+  {
+   "name": "radio-tower",
+   "tags": [
+    "tower",
+    "base station",
+    "вышка",
+    "базовая станция",
+    "БС"
+   ]
+  },
+  {
+   "name": "signal",
+   "tags": [
+    "signal",
+    "coverage",
+    "сигнал",
+    "покрытие",
+    "связь"
+   ]
+  },
+  {
+   "name": "wifi",
+   "tags": [
+    "wifi",
+    "wireless",
+    "вайфай",
+    "беспроводной",
+    "интернет"
+   ]
+  },
+  {
+   "name": "router",
+   "tags": [
+    "router",
+    "modem",
+    "роутер",
+    "модем",
+    "CPE"
+   ]
+  },
+  {
+   "name": "server",
+   "tags": [
+    "server",
+    "hosting",
+    "сервер",
+    "хостинг",
+    "ЦОД"
+   ]
+  },
+  {
+   "name": "database",
+   "tags": [
+    "database",
+    "storage",
+    "data",
+    "база данных",
+    "хранилище"
+   ]
+  },
+  {
+   "name": "cloud",
+   "tags": [
+    "cloud",
+    "saas",
+    "облако",
+    "облачные сервисы"
+   ]
+  },
+  {
+   "name": "cpu",
+   "tags": [
+    "cpu",
+    "chip",
+    "processor",
+    "процессор",
+    "чип"
+   ]
+  },
+  {
+   "name": "smartphone",
+   "tags": [
+    "phone",
+    "mobile",
+    "смартфон",
+    "телефон",
+    "мобильный"
+   ]
+  },
+  {
+   "name": "tablet-smartphone",
+   "tags": [
+    "devices",
+    "tablet",
+    "устройства",
+    "планшет",
+    "мультиэкран"
+   ]
+  },
+  {
+   "name": "satellite",
+   "tags": [
+    "satellite",
+    "space",
+    "спутник",
+    "космос",
+    "NTN"
+   ]
+  },
+  {
+   "name": "network",
+   "tags": [
+    "network",
+    "topology",
+    "сеть",
+    "топология",
+    "узлы"
+   ]
+  },
+  {
+   "name": "cable",
+   "tags": [
+    "cable",
+    "fibre",
+    "wired",
+    "кабель",
+    "оптика",
+    "ВОЛС"
+   ]
+  },
+  {
+   "name": "globe",
+   "tags": [
+    "globe",
+    "world",
+    "international",
+    "мир",
+    "глобальный",
+    "интернет"
+   ]
+  },
+  {
+   "name": "map",
+   "tags": [
+    "map",
+    "region",
+    "карта",
+    "регион",
+    "география"
+   ]
+  },
+  {
+   "name": "map-pin",
+   "tags": [
+    "location",
+    "pin",
+    "place",
+    "локация",
+    "точка",
+    "адрес"
+   ]
+  },
+  {
+   "name": "building-2",
+   "tags": [
+    "building",
+    "office",
+    "company",
+    "здание",
+    "офис",
+    "компания"
+   ]
+  },
+  {
+   "name": "factory",
+   "tags": [
+    "factory",
+    "industry",
+    "production",
+    "завод",
+    "промышленность",
+    "производство"
+   ]
+  },
+  {
+   "name": "home",
+   "tags": [
+    "home",
+    "house",
+    "fixed",
+    "дом",
+    "домашний",
+    "ШПД"
+   ]
+  },
+  {
+   "name": "users",
+   "tags": [
+    "team",
+    "people",
+    "customers",
+    "команда",
+    "люди",
+    "клиенты"
+   ]
+  },
+  {
+   "name": "user",
+   "tags": [
+    "user",
+    "person",
+    "profile",
+    "пользователь",
+    "человек",
+    "профиль"
+   ]
+  },
+  {
+   "name": "user-check",
+   "tags": [
+    "verified user",
+    "approved",
+    "подтверждённый",
+    "проверка",
+    "клиент"
+   ]
+  },
+  {
+   "name": "briefcase",
+   "tags": [
+    "business",
+    "b2b",
+    "work",
+    "бизнес",
+    "портфель",
+    "работа"
+   ]
+  },
+  {
+   "name": "handshake",
+   "tags": [
+    "partnership",
+    "deal",
+    "agreement",
+    "партнёрство",
+    "сделка",
+    "договор"
+   ]
+  },
+  {
+   "name": "target",
+   "tags": [
+    "target",
+    "goal",
+    "aim",
+    "цель",
+    "мишень",
+    "KPI"
+   ]
+  },
+  {
+   "name": "trophy",
+   "tags": [
+    "trophy",
+    "win",
+    "award",
+    "кубок",
+    "победа",
+    "награда"
+   ]
+  },
+  {
+   "name": "flag",
+   "tags": [
+    "flag",
+    "milestone",
+    "goal",
+    "флаг",
+    "веха",
+    "этап"
+   ]
+  },
+  {
+   "name": "rocket",
+   "tags": [
+    "launch",
+    "startup",
+    "growth",
+    "запуск",
+    "ракета",
+    "старт"
+   ]
+  },
+  {
+   "name": "lightbulb",
+   "tags": [
+    "idea",
+    "innovation",
+    "insight",
+    "идея",
+    "инновация",
+    "озарение"
+   ]
+  },
+  {
+   "name": "zap",
+   "tags": [
+    "energy",
+    "fast",
+    "power",
+    "молния",
+    "энергия",
+    "скорость"
+   ]
+  },
+  {
+   "name": "shield",
+   "tags": [
+    "protection",
+    "security",
+    "defence",
+    "защита",
+    "безопасность",
+    "щит"
+   ]
+  },
+  {
+   "name": "shield-check",
+   "tags": [
+    "secure",
+    "compliance",
+    "trusted",
+    "безопасно",
+    "соответствие",
+    "надёжность"
+   ]
+  },
+  {
+   "name": "lock",
+   "tags": [
+    "lock",
+    "private",
+    "secure",
+    "замок",
+    "закрыто",
+    "приватность"
+   ]
+  },
+  {
+   "name": "key",
+   "tags": [
+    "key",
+    "access",
+    "ключ",
+    "доступ",
+    "пароль"
+   ]
+  },
+  {
+   "name": "eye",
+   "tags": [
+    "view",
+    "visibility",
+    "monitoring",
+    "просмотр",
+    "видимость",
+    "мониторинг"
+   ]
+  },
+  {
+   "name": "search",
+   "tags": [
+    "search",
+    "find",
+    "analysis",
+    "поиск",
+    "анализ",
+    "исследование"
+   ]
+  },
+  {
+   "name": "settings",
+   "tags": [
+    "settings",
+    "config",
+    "gear",
+    "настройки",
+    "конфигурация",
+    "шестерня"
+   ]
+  },
+  {
+   "name": "wrench",
+   "tags": [
+    "tool",
+    "repair",
+    "maintenance",
+    "инструмент",
+    "ремонт",
+    "обслуживание"
+   ]
+  },
+  {
+   "name": "layers",
+   "tags": [
+    "layers",
+    "stack",
+    "platform",
+    "слои",
+    "стек",
+    "платформа"
+   ]
+  },
+  {
+   "name": "layout-grid",
+   "tags": [
+    "grid",
+    "dashboard",
+    "portfolio",
+    "сетка",
+    "дашборд",
+    "портфель"
+   ]
+  },
+  {
+   "name": "puzzle",
+   "tags": [
+    "puzzle",
+    "integration",
+    "piece",
+    "пазл",
+    "интеграция",
+    "элемент"
+   ]
+  },
+  {
+   "name": "workflow",
+   "tags": [
+    "workflow",
+    "process",
+    "automation",
+    "процесс",
+    "автоматизация",
+    "поток"
+   ]
+  },
+  {
+   "name": "git-branch",
+   "tags": [
+    "branch",
+    "scenario",
+    "fork",
+    "ветка",
+    "сценарий",
+    "развилка"
+   ]
+  },
+  {
+   "name": "chart-bar",
+   "tags": [
+    "bar chart",
+    "statistics",
+    "report",
+    "гистограмма",
+    "статистика",
+    "отчёт"
+   ]
+  },
+  {
+   "name": "chart-line",
+   "tags": [
+    "line chart",
+    "trend",
+    "dynamics",
+    "график",
+    "тренд",
+    "динамика"
+   ]
+  },
+  {
+   "name": "chart-pie",
+   "tags": [
+    "pie chart",
+    "share",
+    "market share",
+    "круговая диаграмма",
+    "доля",
+    "структура"
+   ]
+  },
+  {
+   "name": "trending-up",
+   "tags": [
+    "growth",
+    "increase",
+    "up",
+    "рост",
+    "увеличение",
+    "подъём"
+   ]
+  },
+  {
+   "name": "trending-down",
+   "tags": [
+    "decline",
+    "decrease",
+    "down",
+    "падение",
+    "снижение",
+    "спад"
+   ]
+  },
+  {
+   "name": "activity",
+   "tags": [
+    "activity",
+    "pulse",
+    "load",
+    "активность",
+    "пульс",
+    "нагрузка"
+   ]
+  },
+  {
+   "name": "gauge",
+   "tags": [
+    "gauge",
+    "speed",
+    "performance",
+    "спидометр",
+    "скорость",
+    "показатель"
+   ]
+  },
+  {
+   "name": "percent",
+   "tags": [
+    "percent",
+    "discount",
+    "share",
+    "процент",
+    "скидка",
+    "доля"
+   ]
+  },
+  {
+   "name": "calculator",
+   "tags": [
+    "calculator",
+    "calculation",
+    "finance",
+    "калькулятор",
+    "расчёт",
+    "финансы"
+   ]
+  },
+  {
+   "name": "wallet",
+   "tags": [
+    "wallet",
+    "payment",
+    "balance",
+    "кошелёк",
+    "платёж",
+    "баланс"
+   ]
+  },
+  {
+   "name": "banknote",
+   "tags": [
+    "cash",
+    "money",
+    "revenue",
+    "деньги",
+    "выручка",
+    "наличные"
+   ]
+  },
+  {
+   "name": "coins",
+   "tags": [
+    "coins",
+    "price",
+    "cost",
+    "монеты",
+    "цена",
+    "стоимость"
+   ]
+  },
+  {
+   "name": "credit-card",
+   "tags": [
+    "card",
+    "payment",
+    "bank",
+    "карта",
+    "оплата",
+    "банк"
+   ]
+  },
+  {
+   "name": "shopping-cart",
+   "tags": [
+    "cart",
+    "shop",
+    "sales",
+    "корзина",
+    "покупка",
+    "продажи"
+   ]
+  },
+  {
+   "name": "receipt",
+   "tags": [
+    "receipt",
+    "invoice",
+    "bill",
+    "чек",
+    "счёт",
+    "квитанция"
+   ]
+  },
+  {
+   "name": "file-text",
+   "tags": [
+    "document",
+    "file",
+    "contract",
+    "документ",
+    "файл",
+    "договор"
+   ]
+  },
+  {
+   "name": "clipboard-list",
+   "tags": [
+    "checklist",
+    "tasks",
+    "plan",
+    "чек-лист",
+    "задачи",
+    "план"
+   ]
+  },
+  {
+   "name": "calendar",
+   "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "календарь",
+    "дата",
+    "график"
+   ]
+  },
+  {
+   "name": "clock",
+   "tags": [
+    "time",
+    "clock",
+    "hours",
+    "время",
+    "часы",
+    "срок"
+   ]
+  },
+  {
+   "name": "timer",
+   "tags": [
+    "timer",
+    "deadline",
+    "duration",
+    "таймер",
+    "дедлайн",
+    "длительность"
+   ]
+  },
+  {
+   "name": "hourglass",
+   "tags": [
+    "hourglass",
+    "waiting",
+    "period",
+    "песочные часы",
+    "ожидание",
+    "период"
+   ]
+  },
+  {
+   "name": "alarm-clock",
+   "tags": [
+    "alarm",
+    "reminder",
+    "будильник",
+    "напоминание",
+    "срочно"
+   ]
+  },
+  {
+   "name": "check",
+   "tags": [
+    "check",
+    "done",
+    "ok",
+    "галочка",
+    "готово",
+    "выполнено"
+   ]
+  },
+  {
+   "name": "check-circle",
+   "tags": [
+    "success",
+    "approved",
+    "done",
+    "успех",
+    "одобрено",
+    "готово"
+   ]
+  },
+  {
+   "name": "x-circle",
+   "tags": [
+    "error",
+    "cancel",
+    "fail",
+    "ошибка",
+    "отмена",
+    "отказ"
+   ]
+  },
+  {
+   "name": "alert-triangle",
+   "tags": [
+    "warning",
+    "risk",
+    "alert",
+    "предупреждение",
+    "риск",
+    "внимание"
+   ]
+  },
+  {
+   "name": "info",
+   "tags": [
+    "info",
+    "note",
+    "information",
+    "информация",
+    "примечание",
+    "справка"
+   ]
+  },
+  {
+   "name": "help-circle",
+   "tags": [
+    "help",
+    "question",
+    "faq",
+    "помощь",
+    "вопрос",
+    "поддержка"
+   ]
+  },
+  {
+   "name": "message-circle",
+   "tags": [
+    "message",
+    "chat",
+    "comment",
+    "сообщение",
+    "чат",
+    "комментарий"
+   ]
+  },
+  {
+   "name": "mail",
+   "tags": [
+    "mail",
+    "email",
+    "letter",
+    "почта",
+    "письмо",
+    "рассылка"
+   ]
+  },
+  {
+   "name": "phone",
+   "tags": [
+    "phone call",
+    "voice",
+    "telephony",
+    "звонок",
+    "голос",
+    "телефония"
+   ]
+  },
+  {
+   "name": "headphones",
+   "tags": [
+    "support",
+    "call centre",
+    "audio",
+    "поддержка",
+    "колл-центр",
+    "наушники"
+   ]
+  },
+  {
+   "name": "video",
+   "tags": [
+    "video",
+    "stream",
+    "conference",
+    "видео",
+    "стрим",
+    "видеосвязь"
+   ]
+  },
+  {
+   "name": "camera",
+   "tags": [
+    "camera",
+    "photo",
+    "surveillance",
+    "камера",
+    "фото",
+    "видеонаблюдение"
+   ]
+  },
+  {
+   "name": "mic",
+   "tags": [
+    "microphone",
+    "voice",
+    "podcast",
+    "микрофон",
+    "голос",
+    "запись"
+   ]
+  },
+  {
+   "name": "music",
+   "tags": [
+    "music",
+    "audio",
+    "entertainment",
+    "музыка",
+    "аудио",
+    "развлечения"
+   ]
+  },
+  {
+   "name": "play",
+   "tags": [
+    "play",
+    "start",
+    "media",
+    "воспроизведение",
+    "старт",
+    "видео"
+   ]
+  },
+  {
+   "name": "gift",
+   "tags": [
+    "gift",
+    "bonus",
+    "promo",
+    "подарок",
+    "бонус",
+    "акция"
+   ]
+  },
+  {
+   "name": "star",
+   "tags": [
+    "star",
+    "favourite",
+    "rating",
+    "звезда",
+    "избранное",
+    "рейтинг"
+   ]
+  },
+  {
+   "name": "heart",
+   "tags": [
+    "heart",
+    "love",
+    "loyalty",
+    "сердце",
+    "любовь",
+    "лояльность"
+   ]
+  },
+  {
+   "name": "thumbs-up",
+   "tags": [
+    "like",
+    "approve",
+    "nps",
+    "лайк",
+    "одобрение",
+    "NPS"
+   ]
+  },
+  {
+   "name": "smile",
+   "tags": [
+    "smile",
+    "satisfaction",
+    "happy",
+    "улыбка",
+    "удовлетворённость",
+    "довольный"
+   ]
+  },
+  {
+   "name": "leaf",
+   "tags": [
+    "eco",
+    "green",
+    "sustainability",
+    "эко",
+    "зелёный",
+    "устойчивое развитие"
+   ]
+  },
+  {
+   "name": "recycle",
+   "tags": [
+    "recycle",
+    "circular",
+    "reuse",
+    "переработка",
+    "цикл",
+    "повторное использование"
+   ]
+  },
+  {
+   "name": "sun",
+   "tags": [
+    "sun",
+    "solar",
+    "energy",
+    "солнце",
+    "солнечная энергия",
+    "день"
+   ]
+  },
+  {
+   "name": "battery-charging",
+   "tags": [
+    "battery",
+    "charging",
+    "power",
+    "батарея",
+    "зарядка",
+    "питание"
+   ]
+  },
+  {
+   "name": "plug",
+   "tags": [
+    "plug",
+    "power",
+    "connection",
+    "вилка",
+    "электричество",
+    "подключение"
+   ]
+  },
+  {
+   "name": "car",
+   "tags": [
+    "car",
+    "auto",
+    "transport",
+    "автомобиль",
+    "машина",
+    "транспорт"
+   ]
+  },
+  {
+   "name": "truck",
+   "tags": [
+    "truck",
+    "logistics",
+    "delivery",
+    "грузовик",
+    "логистика",
+    "доставка"
+   ]
+  },
+  {
+   "name": "plane",
+   "tags": [
+    "plane",
+    "flight",
+    "roaming",
+    "самолёт",
+    "перелёт",
+    "роуминг"
+   ]
+  },
+  {
+   "name": "train-front",
+   "tags": [
+    "train",
+    "rail",
+    "railway",
+    "поезд",
+    "железная дорога",
+    "транспорт"
+   ]
+  },
+  {
+   "name": "ship",
+   "tags": [
+    "ship",
+    "sea",
+    "maritime",
+    "корабль",
+    "море",
+    "судно"
+   ]
+  },
+  {
+   "name": "bike",
+   "tags": [
+    "bike",
+    "cycling",
+    "micromobility",
+    "велосипед",
+    "самокат",
+    "микромобильность"
+   ]
+  },
+  {
+   "name": "graduation-cap",
+   "tags": [
+    "education",
+    "training",
+    "university",
+    "образование",
+    "обучение",
+    "университет"
+   ]
+  },
+  {
+   "name": "book-open",
+   "tags": [
+    "book",
+    "knowledge",
+    "guide",
+    "книга",
+    "знания",
+    "руководство"
+   ]
+  },
+  {
+   "name": "brain",
+   "tags": [
+    "brain",
+    "ai",
+    "intelligence",
+    "мозг",
+    "ИИ",
+    "интеллект"
+   ]
+  },
+  {
+   "name": "bot",
+   "tags": [
+    "bot",
+    "ai",
+    "assistant",
+    "бот",
+    "ИИ",
+    "ассистент"
+   ]
+  },
+  {
+   "name": "sparkles",
+   "tags": [
+    "sparkles",
+    "ai",
+    "new",
+    "искры",
+    "ИИ",
+    "новое"
+   ]
+  },
+  {
+   "name": "code",
+   "tags": [
+    "code",
+    "development",
+    "software",
+    "код",
+    "разработка",
+    "программа"
+   ]
+  },
+  {
+   "name": "terminal",
+   "tags": [
+    "terminal",
+    "console",
+    "cli",
+    "терминал",
+    "консоль",
+    "команда"
+   ]
+  },
+  {
+   "name": "link",
+   "tags": [
+    "link",
+    "url",
+    "connection",
+    "ссылка",
+    "связь",
+    "URL"
+   ]
+  },
+  {
+   "name": "share-2",
+   "tags": [
+    "share",
+    "network",
+    "distribute",
+    "поделиться",
+    "обмен",
+    "распространение"
+   ]
+  },
+  {
+   "name": "download",
+   "tags": [
+    "download",
+    "downlink",
+    "load",
+    "скачать",
+    "загрузка",
+    "нисходящий"
+   ]
+  },
+  {
+   "name": "upload",
+   "tags": [
+    "upload",
+    "uplink",
+    "send",
+    "выгрузка",
+    "отправка",
+    "восходящий"
+   ]
+  },
+  {
+   "name": "refresh-cw",
+   "tags": [
+    "refresh",
+    "update",
+    "sync",
+    "обновление",
+    "синхронизация",
+    "цикл"
+   ]
+  },
+  {
+   "name": "arrow-right",
+   "tags": [
+    "arrow",
+    "next",
+    "direction",
+    "стрелка",
+    "далее",
+    "направление"
+   ]
+  },
+  {
+   "name": "arrow-up-right",
+   "tags": [
+    "growth arrow",
+    "external",
+    "up-right",
+    "стрелка вверх",
+    "рост",
+    "переход"
+   ]
+  },
+  {
+   "name": "chevron-right",
+   "tags": [
+    "chevron",
+    "next",
+    "forward",
+    "шеврон",
+    "вперёд",
+    "далее"
+   ]
+  },
+  {
+   "name": "plus",
+   "tags": [
+    "plus",
+    "add",
+    "new",
+    "плюс",
+    "добавить",
+    "новый"
+   ]
+  },
+  {
+   "name": "minus",
+   "tags": [
+    "minus",
+    "remove",
+    "less",
+    "минус",
+    "убрать",
+    "меньше"
+   ]
+  },
+  {
+   "name": "scale",
+   "tags": [
+    "scale",
+    "balance",
+    "law",
+    "regulation",
+    "весы",
+    "баланс"
+   ]
+  },
+  {
+   "name": "landmark",
+   "tags": [
+    "government",
+    "bank",
+    "institution",
+    "государство",
+    "банк",
+    "учреждение"
+   ]
+  },
+  {
+   "name": "newspaper",
+   "tags": [
+    "news",
+    "press",
+    "media",
+    "новости",
+    "пресса",
+    "СМИ"
+   ]
+  },
+  {
+   "name": "megaphone",
+   "tags": [
+    "marketing",
+    "announcement",
+    "campaign",
+    "маркетинг",
+    "объявление",
+    "кампания"
+   ]
+  },
+  {
+   "name": "bell",
+   "tags": [
+    "notification",
+    "alert",
+    "reminder",
+    "уведомление",
+    "колокольчик",
+    "оповещение"
+   ]
+  },
+  {
+   "name": "package",
+   "tags": [
+    "package",
+    "parcel",
+    "delivery",
+    "пакет",
+    "посылка",
+    "поставка"
+   ]
+  },
+  {
+   "name": "box",
+   "tags": [
+    "box",
+    "product",
+    "container",
+    "коробка",
+    "продукт",
+    "контейнер"
+   ]
+  },
+  {
+   "name": "store",
+   "tags": [
+    "store",
+    "retail",
+    "shop",
+    "магазин",
+    "розница",
+    "салон связи"
+   ]
+  },
+  {
+   "name": "tag",
+   "tags": [
+    "tag",
+    "label",
+    "price",
+    "тег",
+    "метка",
+    "ценник"
+   ]
+  },
+  {
+   "name": "ticket",
+   "tags": [
+    "ticket",
+    "coupon",
+    "voucher",
+    "билет",
+    "купон",
+    "обращение"
+   ]
+  },
+  {
+   "name": "compass",
+   "tags": [
+    "compass",
+    "direction",
+    "strategy",
+    "компас",
+    "направление",
+    "стратегия"
+   ]
+  },
+  {
+   "name": "navigation",
+   "tags": [
+    "navigation",
+    "gps",
+    "route",
+    "навигация",
+    "GPS",
+    "маршрут"
+   ]
+  },
+  {
+   "name": "scan",
+   "tags": [
+    "scan",
+    "recognition",
+    "detect",
+    "сканирование",
+    "распознавание",
+    "детекция"
+   ]
+  },
+  {
+   "name": "qr-code",
+   "tags": [
+    "qr",
+    "code",
+    "payment",
+    "QR",
+    "код",
+    "оплата"
+   ]
+  },
+  {
+   "name": "fingerprint",
+   "tags": [
+    "fingerprint",
+    "biometrics",
+    "identity",
+    "отпечаток",
+    "биометрия",
+    "идентификация"
+   ]
+  },
+  {
+   "name": "id-card",
+   "tags": [
+    "id",
+    "identity",
+    "passport",
+    "удостоверение",
+    "личность",
+    "ID"
+   ]
+  },
+  {
+   "name": "hospital",
+   "tags": [
+    "hospital",
+    "healthcare",
+    "medicine",
+    "больница",
+    "здравоохранение",
+    "медицина"
+   ]
+  },
+  {
+   "name": "stethoscope",
+   "tags": [
+    "doctor",
+    "health",
+    "diagnosis",
+    "врач",
+    "здоровье",
+    "диагностика"
+   ]
+  },
+  {
+   "name": "school",
+   "tags": [
+    "school",
+    "education",
+    "kids",
+    "школа",
+    "образование",
+    "дети"
+   ]
+  },
+  {
+   "name": "tv",
+   "tags": [
+    "tv",
+    "television",
+    "iptv",
+    "телевидение",
+    "ТВ",
+    "экран"
+   ]
+  },
+  {
+   "name": "gamepad-2",
+   "tags": [
+    "game",
+    "gaming",
+    "entertainment",
+    "игры",
+    "геймпад",
+    "развлечения"
+   ]
+  }
+ ]
+}

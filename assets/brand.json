@@ -1,0 +1,101 @@
+{
+ "_source": "MegaFon brandbook 'Константы бренда', январь 2026 (pages cited); conflicts resolved in favour of the brandbook",
+ "colors": {
+  "main": {
+   "green": "00B956",
+   "purple": "731982",
+   "white": "FFFFFF",
+   "black": "000000"
+  },
+  "additional": {
+   "lime": "AAFF00",
+   "grass": "1EFA64",
+   "sky": "3CB9FF",
+   "night": "1E64AA",
+   "berry": "AA5AFF",
+   "flamingo": "E64DE6"
+  },
+  "gradient_only": [
+   "sky",
+   "flamingo"
+  ],
+  "notes": {
+   "night": "brandbook p.23 prints HEX 1E64AA but RGB 27·97·172 (=1B61AC); HEX used",
+   "black": "brandbook p.22 prints HEX '00000'; 000000 used",
+   "berry": "template theme had B359FF; replaced by brandbook AA5AFF"
+  }
+ },
+ "chart_series": {
+  "_doc": "Order matches the legend dots in chart layouts (theme slots accent6, accent5, accent2, accent3, tx1).",
+  "light": [
+   "731982",
+   "AA5AFF",
+   "1EFA64",
+   "AAFF00",
+   "00B956",
+   "1E64AA"
+  ],
+  "dark": [
+   "AA5AFF",
+   "1EFA64",
+   "AAFF00",
+   "00B956",
+   "731982",
+   "1E64AA"
+  ],
+  "green": [
+   "731982",
+   "FFFFFF",
+   "AAFF00",
+   "AA5AFF",
+   "000000",
+   "1E64AA"
+  ]
+ },
+ "text_colors": {
+  "light": "000000",
+  "dark": "FFFFFF",
+  "green": "FFFFFF"
+ },
+ "proportions": "green dominates (brand green + white is the main identity); purple is the accent, about 4:1 green:purple; additional colours together ≤ 10%, taken from the purple share (pp.20-21)",
+ "gradients": "only for small objects; purple gradients on green/white backgrounds, green gradients on purple/white; only combinations from pp.24-25",
+ "fonts": {
+  "office": "Arial",
+  "brand": "GT Walsheim (not for PowerPoint; p.30)"
+ },
+ "typesetting": {
+  "quotes": "«ёлочки»; „лапки“ only inside «ёлочек» (p.31)",
+  "yo": "always ё where it belongs, upper and lower case (p.31)",
+  "dash": "em dash — with spaces, no line break before it; en dash – without spaces for ranges: 5–6 октября (p.32)",
+  "thousands": "thousands and the ₽ sign separated by a narrow no-break space U+202F: 12 500 ₽ (p.32)",
+  "hyphen": "hyphen only inside compound words, no spaces (p.32)",
+  "brand_name": "МегаФон / MegaFon: two capitals М and Ф, no quotes, may be declined; with 'компания'/'бренд' and in the legal name — not declined, in quotes (p.33)",
+  "spaces": "no double spaces; no hanging prepositions/conjunctions at line ends (p.31)"
+ },
+ "logo": "Logo is built into the cover layouts of the template; do not add or redraw it on other slides. White logo on green is the main combination; green on white for internal communications (p.11).",
+ "tagline": "Legal text of the tagline block may be omitted in internal media, including presentations (p.15).",
+ "styles": {
+  "green": "brand default for covers and key slides (green dominates primary communications, p.20)",
+  "light": "default for content-heavy internal decks",
+  "dark": "black/purple variant from the template; use only when the user asks"
+ },
+ "chart_series_by_layout": {
+  "_doc": "Legend dots drawn in these layouts (theme accent5/accent2 and accent6/accent5/accent2/accent3/tx1); series colours must match them.",
+  "chart_two_items": [
+   "AA5AFF",
+   "1EFA64"
+  ],
+  "chart_five_items": [
+   "731982",
+   "AA5AFF",
+   "1EFA64",
+   "AAFF00",
+   "00B956"
+  ]
+ },
+ "chart_single_series": {
+  "light": "00B956",
+  "dark": "00B956",
+  "green": "FFFFFF"
+ }
+}
